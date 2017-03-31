@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>todo_HW</title>
+
+</head>
+<body>
+
+<div class="todo-container">
+
+    <div class="todo-header">
+        <h1 class="todo-title">todos</h1>
+    </div>
+
+    <div class="todo-add">
+        <button class="todo-all_select-all" aria-label="Отметить все как выполненное"> V
+        </button>
+
+        <input class="todo-all_input" type="text" placeholder="Add.." aria-label="Поле для добавления">
+    </div>
+
+    <div class="todo-list">
+        <div class="todo-item __ready"> <!--модификатор??-->
+
+            <input type="checkbox" class="todo-item_ready-mark" value="cb_html"  checked="checked"
+                   aria-label="Пометить как невыполненное">
+
+            <textarea  class="todo-item_text">HTML</textarea>
+
+            <button class="todo-item_remove" aria-label="Удалить todo"> Удалить </button>
+        </div>
+
+        <div class="todo-item"> <!--модификатор??-->
+
+            <input type="checkbox" class="todo-item_ready-mark" value="cb_html"
+                   aria-label="Пометить как выполненное">
+
+            <textarea  class="todo-item_text">CSS</textarea>
+
+            <button class="todo-item_remove" aria-label="Удалить todo"> Удалить </button>
+        </div>
+
+        <div class="todo-item"> <!--модификатор??-->
+
+            <input type="checkbox" class="todo-item_ready-mark" value="cb_html"
+                   aria-label="Пометить как выполненное">
+
+            <textarea  class="todo-item_text">JS</textarea>
+
+            <button class="todo-item_remove" aria-label="Удалить todo"> Удалить </button>
+        </div>
+    </div>
+
+    <div class="todo-action-bar">
+        <div class="todo-action-bar_counter" aria-label="Посчитать несделанные todo">
+            n todo
+        </div>
+
+        <div class="todo-filter" data-filter="all" aria-label="Фильтр : показ всех">
+            <button class="todo-filter __active" > <!-- Модификатор??-->
+                Все
+            </button>
+        </div>
+
+        <div class="todo-filter" data-filter="ready" aria-label="Фильтр : показ выполненных">
+            <button class="todo-filter" > <!-- Модификатор??-->
+                Выполненные
+            </button>
+        </div>
+
+        <div class="todo-filter" data-filter="unready" aria-label="Фильтр : показ невыполненных">
+            <button class="todo-filter __active" > <!-- Модификатор??-->
+                Невыполненные
+            </button>
+        </div>
+
+            <button class="todo-action-bar_remove-complited"> Удалить завершенные</button>
+
+    </div>
+
+
+</div>
+
+
+
+
+
+</body>
+</html>
