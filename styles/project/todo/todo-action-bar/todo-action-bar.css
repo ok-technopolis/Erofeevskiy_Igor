@@ -1,0 +1,24 @@
+.todo-action-bar{
+
+    border-top: solid 1px #e6e6e6;
+    margin-top: 100px;
+    padding: 5px;
+    position: relative;
+    overflow:hidden;
+    color: #888;
+    font-size: 14px;
+
+}
+
+.todo-action-bar_counter{
+    display: inline-block;
+    margin-right:50px;
+    margin-left: 5px;
+}
+.todo-action-bar_remove-complited{
+    float: right;
+    color: #888;
+    border: none;
+    background: transparent;
+    outline: none;
+}

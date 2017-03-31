@@ -1,0 +1,12 @@
+.todo-filter{
+    display: inline-block;
+    color: #888;
+    border: none;
+    background: transparent;
+    outline: none;
+
+}
+
+.todo-filter.__active{
+    border: solid 1px #ebdfdf;
+}
